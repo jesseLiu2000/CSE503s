@@ -1,0 +1,63 @@
+/* .background{
+    background-color:#89CFF0;
+} */
+h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+    font-weight:400 ;
+}
+form {
+    text-align: center;
+    margin: auto;
+}
+.logininput input[type="text"] {
+    border: 2px solid black;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;     
+    transition: 0.25s;   
+  }
+.logininput input[type="text"]:focus{
+    width: 280px;
+    border-color: #0eb9e3;
+}
+
+.logininput input[type="submit"] {
+    border-radius: 24px;
+    border: 2px solid black;
+    background: none;
+    display: block;
+    margin: 2px auto;
+    text-align: center;
+    padding: 14px 40px;
+    outline: none;
+    color: black;     
+    transition: 0.25s;
+    cursor: pointer;    
+  }
+.logininput input[type="submit"]:hover {
+    background: #cc2e92;
+}
+
+.registerinput input[type="submit"] {
+    border-radius: 24px;
+    border: 2px solid black;
+    background: none;
+    display: block;
+    margin: 2px auto;
+    text-align: center;
+    padding: 14px 40px;
+    outline: none;
+    color: black;     
+    transition: 0.25s;
+    cursor: pointer;  
+  }
+.registerinput input[type="submit"]:hover{
+    background: #cc2e92;
+}

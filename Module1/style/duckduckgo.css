@@ -1,0 +1,33 @@
+.picture {
+    text-align: center;
+    margin-top: 50px;
+}
+body{
+    background-color: black;
+}
+
+img {
+    height: 350px;
+}
+
+.search {
+    text-align: center;
+}
+
+#search{
+    height: 30px;
+    width: 350px;
+}
+
+#button{
+    height: 40px;
+}
+
+.regrade{
+    margin: auto;
+    padding: 5%;
+    width: 800px;
+    color: grey;
+    font-size: large;
+    font-weight: normal;
+}

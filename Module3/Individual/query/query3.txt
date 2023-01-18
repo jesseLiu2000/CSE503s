@@ -1,0 +1,9 @@
+MariaDB [wustl]> select * from students left join grades on students.id = grades.student_id where course_code='330S' and dept_id=81 and school_code='E';
++-----+------------+-----------+----------------------------+-------------+------------+--------+-------------+---------+-------------+
+| id  | first_name | last_name | email_address              | pk_grade_ID | student_id | grade  | school_code | dept_id | course_code |
++-----+------------+-----------+----------------------------+-------------+------------+--------+-------------+---------+-------------+
+|  88 | Ben        | Harper    | bharper@ffym.com           |          11 |         88 |  35.50 | E           |      81 | 330S        |
+| 202 | Matt       | Freeman   | mfreeman@kickinbassist.net |          14 |        202 | 100.00 | E           |      81 | 330S        |
+| 115 | Marc       | Roberge   | mroberge@ofarevolution.us  |          17 |        115 |  75.00 | E           |      81 | 330S        |
++-----+------------+-----------+----------------------------+-------------+------------+--------+-------------+---------+-------------+
+3 rows in set (0.00 sec)
