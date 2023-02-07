@@ -1,8 +1,8 @@
 # CSE 330
 
-Name:
+Name: Zijie Liu
 
-Student ID:
+Student ID: 513053
 
 Name: Han Chen
 
